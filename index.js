@@ -1,16 +1,7 @@
 'use strict';
 
-import React, {
-  StyleSheet,
-  PropTypes,
-  View,
-  Text,
-  TouchableOpacity,
-  Dimensions,
-  TouchableWithoutFeedback,
-  PixelRatio,
-  Platform,
-} from 'react-native';
+import React, {PropTypes} from 'react';
+import {StyleSheet, View, Text, TouchableOpacity, Dimensions, TouchableWithoutFeedback, PixelRatio, Platform} from 'react-native';
 
 class PopContent extends React.Component{
 
@@ -61,7 +52,7 @@ class PopContent extends React.Component{
     );
   }
 
-};
+}
 
 class DisplayPopup extends React.Component{
 
@@ -129,7 +120,7 @@ class DisplayPopup extends React.Component{
     return <View style={styles.hidden}/>;
   }
 
-};
+}
 
 export default class Popup extends React.Component{
 
@@ -257,7 +248,7 @@ export default class Popup extends React.Component{
     return <View style={styles.hidden}/>;
   }
 
-};
+}
 
 let styles = StyleSheet.create({
   popupContainer: {
